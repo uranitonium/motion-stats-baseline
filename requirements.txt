@@ -1,0 +1,8 @@
+# Measurement code and CalMS21 scoring (the paper used Python 3.11)
+numpy>=1.26
+scipy>=1.11
+scikit-learn==1.5.2   # the benchmark evaluators need a version below 1.6
+pandas
+joblib                # hBABEL pose files
+ijson                 # streaming the large CalMS21 unlabeled-videos JSON (convert_unlabeled.py)
+# The MABe 2022 fly evaluator runs in its own environment: numpy 1.26.4, pandas 1.5.3, scikit-learn 1.5.2.
